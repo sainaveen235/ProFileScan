@@ -9,7 +9,7 @@ export function HowItWorks() {
     {
       icon: <FileUp className="h-6 w-6" />,
       title: "Upload",
-      description: "Upload your resume in PDF, DOCX, or TXT format",
+      description: "Upload your resume in PDF, DOCX",
       delay: 0.1,
       tooltip: "We support all major file formats including PDF, DOCX, and TXT",
     },
