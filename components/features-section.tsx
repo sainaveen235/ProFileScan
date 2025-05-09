@@ -66,7 +66,7 @@ export function FeaturesSection() {
             </div>
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Key Features</h2>
             <p className="mt-4 text-white/70 max-w-2xl">
-              Scanlance provides powerful tools to optimize your resume for any job application, helping you stand out
+              ProFileScan provides powerful tools to optimize your resume for any job application, helping you stand out
               from the competition.
             </p>
           </motion.div>

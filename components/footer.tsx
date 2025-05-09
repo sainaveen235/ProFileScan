@@ -50,14 +50,14 @@ export function Footer() {
 
       <div className="container px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
-          {/* Scanlance info */}
+          {/* ProFileScan info */}
           <div className="md:col-span-4">
             <Link href="/" scroll={true} replace className="flex items-center space-x-2 mb-3 group">
               <div className="relative overflow-hidden rounded-full border border-white/10 p-1.5 bg-white/5">
                 <FileText className="h-5 w-5" />
               </div>
               <span className="font-medium tracking-tight text-xl">
-                <span className="font-bold">Scan</span>lance
+                <span className="font-bold">ProFile</span>Scan
               </span>
             </Link>
             <p className="text-white/70 mb-4 text-base leading-relaxed">
@@ -80,7 +80,7 @@ export function Footer() {
                 variant="outline"
                 className="mt-2 border-white/20 hover:bg-white/10 hover:text-white transition-colors"
                 onClick={() =>
-                  (window.location.href = "mailto:chavanumeshchandrarao@gmail.com?subject=Inquiry about Scanlance")
+                  (window.location.href = "mailto:sainaveen0981@gmail.com?subject=Inquiry about ProFileScan")
                 }
               >
                 <Mail className="mr-2 h-4 w-4" />
@@ -154,7 +154,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-white/10 mt-10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0">
-          <p className="text-sm text-white/60 text-center md:text-left">© 2025 Scanlance. All rights reserved.</p>
+          <p className="text-sm text-white/60 text-center md:text-left">© 2025 ProFileScan. All rights reserved.</p>
           <p className="text-sm text-white/60 flex items-center text-center md:text-right">
             Designed with <Heart className="h-3 w-3 mx-1 text-white/80" /> for job seekers
           </p>

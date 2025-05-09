@@ -4,7 +4,6 @@ import { Inter } from "next/font/google"
 import { GeistMono } from "geist/font/mono"
 import { cn } from "@/lib/utils"
 import { ThemeProvider } from "@/components/theme-provider"
-import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -12,7 +11,7 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: "Scanlance - AI Resume Analyzer",
+  title: "ProFileScan - AI Resume Analyzer",
   description: "Analyze your resume against job descriptions with AI",
     generator: 'v0.dev'
 }
@@ -39,7 +38,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="relative z-[2]">{children}</div>
           </div>
         </ThemeProvider>
-        <Analytics />
       </body>
     </html>
   )

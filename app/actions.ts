@@ -35,12 +35,12 @@ export async function sendFeedbackAction(data: { name: string; email: string; fe
     }
 
     const { data: emailData, error } = await resend.emails.send({
-      from: "Scanlance Feedback <onboarding@resend.dev>",
+      from: "ProFileScan Feedback <onboarding@resend.dev>",
       to: "chavanumeshchandrarao@gmail.com",
       subject: `New Feedback from ${name}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e0e0e0; border-radius: 5px;">
-          <h2 style="color: #333; border-bottom: 1px solid #e0e0e0; padding-bottom: 10px;">New Feedback from Scanlance</h2>
+          <h2 style="color: #333; border-bottom: 1px solid #e0e0e0; padding-bottom: 10px;">New Feedback from ProFileScan</h2>
           
           <div style="margin: 20px 0;">
             <p><strong>Name:</strong> ${name}</p>
@@ -53,7 +53,7 @@ export async function sendFeedbackAction(data: { name: string; email: string; fe
           </div>
           
           <p style="color: #777; font-size: 12px; text-align: center; margin-top: 30px;">
-            This email was sent automatically from the Scanlance website feedback form.
+            This email was sent automatically from the ProFileScan website feedback form.
           </p>
         </div>
       `,

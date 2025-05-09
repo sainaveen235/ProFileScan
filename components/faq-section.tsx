@@ -48,7 +48,7 @@ export function FAQSection() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">Frequently Asked Questions</h2>
             <p className="text-lg text-white/70 max-w-2xl mx-auto">
-              Everything you need to know about Scanlance and our resume analysis service.
+              Everything you need to know about ProFileScan and our resume analysis service.
             </p>
           </div>
 
@@ -64,10 +64,10 @@ export function FAQSection() {
                 onMouseLeave={handleMouseLeave}
               >
                 <AccordionTrigger className="text-lg font-medium py-4 hover:text-white/90 hover:no-underline">
-                  What is Scanlance?
+                  What is ProFileScan?
                 </AccordionTrigger>
                 <AccordionContent className="text-white/70 pb-6">
-                  Scanlance is an AI-powered resume analysis tool that helps job seekers optimize their resumes for
+                  ProFileScan is an AI-powered resume analysis tool that helps job seekers optimize their resumes for
                   specific job descriptions. Our platform uses advanced natural language processing to compare your
                   resume against job requirements, providing actionable insights and recommendations to improve your
                   chances of landing interviews.
@@ -81,7 +81,7 @@ export function FAQSection() {
                 onMouseLeave={handleMouseLeave}
               >
                 <AccordionTrigger className="text-lg font-medium py-4 hover:text-white/90 hover:no-underline">
-                  How does Scanlance work?
+                  How does ProFileScan work?
                 </AccordionTrigger>
                 <AccordionContent className="text-white/70 pb-6">
                   Simply upload your resume and paste a job description you're interested in. Our AI will analyze both
@@ -114,10 +114,10 @@ export function FAQSection() {
                 onMouseLeave={handleMouseLeave}
               >
                 <AccordionTrigger className="text-lg font-medium py-4 hover:text-white/90 hover:no-underline">
-                  Is Scanlance free to use?
+                  Is ProFileScan free to use?
                 </AccordionTrigger>
                 <AccordionContent className="text-white/70 pb-6">
-                  Yes, Scanlance is completely free to use. We believe everyone should have access to tools that help
+                  Yes, ProFileScan is completely free to use. We believe everyone should have access to tools that help
                   them advance their careers. There are no hidden fees, subscriptions, or premium features that require
                   payment.
                 </AccordionContent>
@@ -133,7 +133,7 @@ export function FAQSection() {
                   Do I need to create an account?
                 </AccordionTrigger>
                 <AccordionContent className="text-white/70 pb-6">
-                  No, you don't need to create an account or sign up to use Scanlance. We've designed our platform to be
+                  No, you don't need to create an account or sign up to use ProFileScan. We've designed our platform to be
                   as frictionless as possible. Simply visit the site, upload your resume, enter the job description, and
                   get your analysis instantly.
                 </AccordionContent>
@@ -149,7 +149,7 @@ export function FAQSection() {
                   What file formats are supported?
                 </AccordionTrigger>
                 <AccordionContent className="text-white/70 pb-6">
-                  Scanlance supports the most common resume file formats including PDF, DOCX (Microsoft Word). We
+                  ProFileScan supports the most common resume file formats including PDF, DOCX (Microsoft Word). We
                   recommend using PDF format for the most accurate analysis, as it preserves your resume's formatting.
                 </AccordionContent>
               </AccordionItem>

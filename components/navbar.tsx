@@ -63,7 +63,7 @@ export function Navbar() {
                 <div className="absolute inset-0 bg-white/5 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
               </div>
               <span className="font-medium tracking-tight text-lg">
-                <span className="font-bold">Scan</span>lance
+                <span className="font-bold">ProFile</span>Scan
               </span>
             </Link>
           </div>

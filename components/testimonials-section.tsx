@@ -9,7 +9,7 @@ export function TestimonialsSection() {
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">It Brings a smile to our faces ❤️</h2>
             <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mx-auto">
-              Real feedback from people who've used Scanlance to improve their resumes
+              Real feedback from people who've used ProFileScan to improve their resumes
             </p>
           </div>
         </div>
@@ -62,7 +62,7 @@ const testimonials: Testimonial[] = [
       "My resume needed work but I didn't know what was wrong. This tool showed me I was writing too much about my responsibilities and not enough about my actual accomplishments. The feedback was very helpful.",
   },
   {
-    name: "Vineeth Kumar",
+    name: "Ajay kumar",
     content:
       "The suggestions were specific to my field which was good. Made some small changes based on the feedback and my resume is much clearer now.",
   },

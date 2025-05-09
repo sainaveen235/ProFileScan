@@ -9,7 +9,7 @@ export function Testimonials() {
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">What Our Users Say</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Hear from professionals who have improved their job search with Scanlance.
+              Hear from professionals who have improved their job search with ProFileScan.
             </p>
           </div>
         </div>
@@ -29,7 +29,7 @@ export function Testimonials() {
             </CardHeader>
             <CardContent className="pt-4">
               <p className="text-sm text-muted-foreground">
-                "Scanlance helped me identify key skills missing from my resume. After making the suggested changes, I
+                "ProFileScan helped me identify key skills missing from my resume. After making the suggested changes, I
                 got interviews at 3 top tech companies!"
               </p>
             </CardContent>

@@ -53,7 +53,7 @@ export function HeroSection() {
             </h1>
 
             <p className="mt-6 text-lg text-white/70 max-w-2xl">
-              Scanlance analyzes your resume against job descriptions to help you land interviews and advance your
+              ProFileScan analyzes your resume against job descriptions to help you land interviews and advance your
               career.
             </p>
 
