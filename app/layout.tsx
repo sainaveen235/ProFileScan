@@ -4,6 +4,7 @@ import { Inter } from "next/font/google"
 import { GeistMono } from "geist/font/mono"
 import { cn } from "@/lib/utils"
 import { ThemeProvider } from "@/components/theme-provider"
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -38,6 +39,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="relative z-[2]">{children}</div>
           </div>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   )
