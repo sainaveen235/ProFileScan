@@ -60,6 +60,7 @@ export async function sendFeedbackAction(data: { name: string; email: string; fe
     });
 
     if (error) {
+      console.error("Error sending email:", error, data)
       throw new AppError("Failed to send email", 500);
     }
 
