@@ -6,7 +6,7 @@ const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/
 // Helper function to generate text using Gemini API
 export async function generateText({
   prompt,
-  temperature = 0.2,
+  temperature = 0,
   maxTokens = 1000,
 }: {
   prompt: string
@@ -36,8 +36,8 @@ export async function generateText({
         generationConfig: {
           temperature,
           maxOutputTokens: maxTokens,
-          topP: 0.95,
-          topK: 40,
+          topP: 1,
+          topK: 1,
         },
         safetySettings: [
           {

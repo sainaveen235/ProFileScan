@@ -299,10 +299,10 @@ export async function analyzeResume(jobDescription: string, resumeText: string) 
           },
         ],
         generationConfig: {
-          temperature: 0.2, // Lower temperature for more consistent JSON output
+          temperature: 0, // Set to 0 for deterministic output
           maxOutputTokens: 4000,
-          topP: 0.95,
-          topK: 40,
+          topP: 1, // Set to 1 for deterministic output
+          topK: 1, // Set to 1 for deterministic output
         },
         safetySettings: [
           {
