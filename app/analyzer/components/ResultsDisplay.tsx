@@ -61,7 +61,7 @@ export function ResultsDisplay({ analysisResult, file, jobTitle, resetAnalysis }
         {/* Add the new Loved it? button */}
         <Button
           onClick={handleFeedbackClick}
-          className="gap-2 px-6 py-2 text-sm rounded-full bg-gradient-to-r from-white/10 to-white/20 border border-white/20 hover:bg-white/15 group"
+          className="gap-2 px-6 py-2 text-sm rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white font-semibold shadow-md hover:from-purple-600 hover:to-blue-600 transition-colors duration-200 group interactive-dots"
           whileHover={{ scale: 1.03 }}
           whileTap={{ scale: 0.97 }}
         >
