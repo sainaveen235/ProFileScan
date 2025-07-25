@@ -20,7 +20,7 @@ export async function POST(request: Request) {
     // Send the email
     const { data, error } = await resend.emails.send({
       from: "ProFileScan Feedback <onboarding@resend.dev>", // Using Resend's default sender
-      to: "sainaveen0981@gmail.com",
+      to: "vineethkumarrao@gmail.com",
       subject: `New Feedback from ${name}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e0e0e0; border-radius: 5px;">
