@@ -80,7 +80,7 @@ export function Footer() {
                 variant="outline"
                 className="mt-2 border-white/20 hover:bg-white/10 hover:text-white transition-colors"
                 onClick={() =>
-                  (window.location.href = "mailto:sainaveen0981@gmail.com?subject=Inquiry about ProFileScan")
+                  (window.location.href = "mailto:svineethkumarrao@gmail.com?subject=Inquiry about ProFileScan")
                 }
               >
                 <Mail className="mr-2 h-4 w-4" />
